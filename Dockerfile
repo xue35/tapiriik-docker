@@ -10,7 +10,7 @@ RUN apk add git
 RUN python3 --version
 RUN pip3 --version
 
-RUN git clone https://github.com/cpfair/tapiriik.git
+RUN git clone https://github.com/xue35/tapiriik.git
 
 WORKDIR /tapiriik
 RUN pip3 install -r requirements.txt
